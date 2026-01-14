@@ -37,11 +37,11 @@
   "jest": {
     "testEnvironment": "jsdom",
     "setupFilesAfterEnv": [
-      "setupTests.js"
+      "<rootDir>./setupTests.js"
     ],
     "moduleNameMapper": {
-      "\\.(gif|png|jpg|jpeg|webp|eot|svg|ttf|woof2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/fileTransformer.js",
-      "\\.(css|less|scss)$": "identity-obj-proxy"
+      "\\\\.(gif|png|jpg|jpeg|webp|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "\<rootDir>/fileTransformer.js",
+      "^.+\\\\.(css|less|scss)$": "identity-obj-proxy"
     }
   }
 }

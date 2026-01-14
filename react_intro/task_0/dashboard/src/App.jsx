@@ -1,12 +1,12 @@
 import holbertonLogo from "./assets/holberton-logo.jpg"
 import "./App.css"
 
-function App() {
+export default function App() {
 
   return (
     <>
       <div className="App-header">
-        <img src={holbertonLogo} alt="holberton-logo" />
+        <img src={holbertonLogo} alt="holberton logo" />
         <h1>School dashboard</h1>
       </div>
 
@@ -16,11 +16,10 @@ function App() {
 
       <div className="App-footer">
         <p>
-          Copyright 2025 - Holberton School
+          Copyright {new Date(Date.now()).getFullYear()} - Holberton School
         </p>
       </div>
     </>
   )
 }
 
-export default App
