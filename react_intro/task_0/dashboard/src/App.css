@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App-header {
+  display: flex;
+  width:100vw;
+  align-items:center;
+  padding:20px;
+  border-bottom:3px solid #e1003c;
+  top:0;
+  left:0;
+  position: absolute;
+}
+
+.App-body {
+  margin-top:103px;
+  padding-left: 20px ;
+  position:relative;
+  /* position:absolute; */
+}
+
+.App-header img {
+  position:block;
+  margin:0;
+  height:200px;
+  margin-right:20px;
+  align-items:center;
+  display:flex;
+  width:fit-content;
+}
+
+.App-header h1{
+  margin:0;
+  font-size:32px;
+  font-weight:bold;
+  color:#e1003c;
+  padding:110px 0 0px 0px;
+  padding-left:20px;
+}
+
+
+
+.App-body p {
+  font-size:18px;
+  padding-top:20px;
+}
+
+.App-footer{
+ position:fixed;
+ bottom:0;
+ width:100%;
+ border-top:3px solid #e1003c;
+ text-align:center;
+ padding:10px 0;
+}
+
+.App-footer p {
+  font-size:14px;
+}
